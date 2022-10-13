@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import '../styles/app.css';
 import Search from './Search';
 import SearchResults from "./SearchResults"
-// import "../requests/getImages";
 
-const App = () => {
+function App() {
   const [searchResults, setSearchResults] = useState([]);
   
   return (
@@ -15,9 +14,11 @@ const App = () => {
       alt="nasaLogo"
       />
       <Search setSearchResults={setSearchResults} />
-      <SearchResults results={searchResults} />
+      <SearchResults /*results={searchResults}*/ />
     </div>
   );
 }
 
 export default App;
+
+
