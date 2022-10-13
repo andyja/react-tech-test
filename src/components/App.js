@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/app.css';
 import Search from './Search';
+import "../requests/getImages";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       alt="nasaLogo"
       />
       <Search />
+      <getImages />
     </div>
   );
 }
