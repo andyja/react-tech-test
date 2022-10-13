@@ -14,11 +14,11 @@ function App() {
       alt="nasaLogo"
       />
       <Search setSearchResults={setSearchResults} />
-      <SearchResults /*results={searchResults}*/ />
+      <SearchResults results={searchResults} />
     </div>
   );
 }
 
 export default App;
 
-
+//searchResults.map((e) => console.log(e))

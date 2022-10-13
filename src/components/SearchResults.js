@@ -1,7 +1,10 @@
 import React from "react";
 import "../styles/searchresults.css";
 
-const SearchRersults = () => {
+const SearchRersults = ({ results }) => {
+    if (!results.length) {
+        return<p>Nothing to see here</p>
+    } else {
 return (
     <>
     <p>Search Results</p>
@@ -11,8 +14,9 @@ return (
     alt="space"
     />
     </>
-)
+);
 }
+};
 
 export default SearchRersults;
 
