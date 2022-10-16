@@ -1,8 +1,11 @@
 .search-result {
     display: flex; flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
 .search-result__images {
-    width: 150px
+    width: 200px;
+    border-width: 100px;
+    border-color: red;
 }
