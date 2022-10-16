@@ -1,0 +1,8 @@
+.search-result {
+    display: flex; flex-direction: row;
+
+}
+
+.search-result__images {
+    width: 150px
+}

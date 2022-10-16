@@ -16,7 +16,7 @@ const handleSubmit = async (e) => {
         <div className="search">
         <form className="search-form" onSubmit={handleSubmit}>
         <input className="search-input" 
-        type="text"
+        type="text" placeholder="search here for nasa images..."
         onChange={(e) => setValue(e.target.value)}
         />
         <button className="search-btn" type="submit">
