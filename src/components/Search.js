@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import React, { useRef } from "react";
 import "../styles/search.css";
 import "../requests/getImages";
 import getImages from "../requests/getImages";
@@ -11,6 +12,18 @@ const handleSubmit = async (e) => {
     e.preventDefault();
     setSearchResults(await getImages(value));
 };
+
+        // function SearchForm(props) {
+        // const { onSubmit } = props;
+  
+        // const inputElement = useRef(null);
+
+        // <button
+        // type="submit"
+        // onClick={() => {
+        //   onSubmit(inputElement.current.value);
+        // }}
+        // ></button>
 
     return (
         <div className="search">
