@@ -20,5 +20,3 @@ function App() {
 }
 
 export default App;
-
-//searchResults.map((e) => console.log(e))
