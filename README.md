@@ -1,3 +1,27 @@
+REACT TECHNICAL TEST
+A Command Shift (Manchester Codes) project to simulate a technical test during the recruitment process.  
+
+Discussion of technologies used
+This project formed part of the frontend module and required CSS, API but focused on consolidating React skills.
+* React
+* Axios
+* CSS
+
+Installation instructions
+
+A section demonstrating that you met the requirements
+
+Future Features To Develop
+* Limiting number of results displayed and adding an option to retrive more.
+* Ability to select an image and enlarge it.
+* Search bar autocomplete.
+* Clearer messaging if not results.
+* Testing
+
+A section demonstrating that you met the requirements
+
+If there are bonuses, a section demonstrating that you met them
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
