@@ -7,7 +7,10 @@
 
 .search-result__images {
     width: 200px;
-    border-width: 100px;
-    border-color: red;
+    border-width: 1px;
+    border: solid 4px;
+    border-color: var(--nasa-grey);
     align-items: stretch;
+    margin: 5px;
+    padding: 5px;
 }

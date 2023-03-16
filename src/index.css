@@ -1,3 +1,11 @@
+:root {
+  --nasa-lightBlue: #105bd8;
+  --nasa-blue: #0b3d91;
+  --nasa-darkBlue: #061f4a;
+  --nasa-grey: #aeb0b5;
+  --nasa-white: #ffffff;
+
+}
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
