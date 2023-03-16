@@ -1,21 +1,21 @@
 .search-input {
+    font-family: inherit;
     width: 50%;
     height: 50px;
-    border-radius: 100px;
+    border-radius: 20px;
     font-size: 20px;
     padding: 0 10px;
-    background-color: white;
-    color: black;
+    background-color: var(--nasa-grey);
+    color: var(--nasa-darkBlue);
     font-weight: bolder;
 }
 .search-btn {
-    border-radius: 25px;
-    background-color: white;
-    color: black;
-    font-weight: bolder;
-    /* margin: auto; */
-    width: 10%;
-    height: 30px;
     font-size: 20px;
-    padding: 5px;
+    font-family: inherit;
+    border-radius: 20px;
+    background-color: var(--nasa-grey);
+    color: var(--nasa-darkBlue);
+    height: 50px;
+    font-size: 20px;
+    padding: 0px 10px;
 }
