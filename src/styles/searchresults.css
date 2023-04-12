@@ -3,6 +3,17 @@
     flex-wrap: wrap;
     justify-content: center;
 
+
+}
+
+.result-class1 {
+    background-color: red;
+}
+#results {
+    background-color: blue;
+}
+#results.result-class1 {
+    background-color: yellow;
 }
 
 .search-result__images {

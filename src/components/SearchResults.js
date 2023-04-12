@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/searchresults.css";
 
-const SearchRersults = ({ results }) => {
+const SearchResults = ({ results }) => {
     if (!results.length) {
         return<p>Nothing to see here</p>
     } else {
@@ -9,6 +9,7 @@ return (
     <>
     <p>Search Results</p>
     <p>Images:</p>
+    
     <div className="search-results">
     {results.map((image, index) => (
        <img
@@ -18,10 +19,10 @@ return (
        alt="result-of-space-search"
       />
     ))}
-    </ div>
+    </div>
     </>
 );
 }
 };
 
-export default SearchRersults;
+export default SearchResults;
