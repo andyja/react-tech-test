@@ -25,3 +25,21 @@
     margin: 5px;
     padding: 5px;
 }
+
+.thumbnail {
+    height: 100px;
+    width: 200px;
+
+
+}
+.thumbnail img {
+    visibility: hidden;
+    display: block;
+    width: 200px;
+    height: 100px;
+    border-width: 1px;
+    border: solid 4px;
+    border-color: var(--nasa-grey);
+    margin: 5px;
+    padding: 5px;
+}
