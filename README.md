@@ -1,8 +1,8 @@
 REACT TECHNICAL TEST
 A Command Shift (Manchester Codes) project to simulate a technical test during the recruitment process.  
 
-Discussion of technologies used
-This project formed part of the frontend module and required CSS, API but focused on consolidating React skills.
+Technologies Used
+This project formed part of the frontend module and required CSS, API but with a focus on consolidating React skills.
 * React
 * Axios
 * CSS
