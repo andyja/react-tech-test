@@ -26,6 +26,8 @@
 
 .thumbnail {
     position: relative;
+    background-size: 200px auto;
+    background-repeat: no-repeat;
     height: 300px;
     width: 200px;
     flex-grow: 1;
