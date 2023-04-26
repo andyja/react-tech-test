@@ -26,7 +26,7 @@ return (
             >
                 {({ ref, open }) => (
                     <div className="thumbnail" style={{backgroundImage: `url(${image})`}}>
-                        <img ref={ref} onClick={open} src={image} />
+                        <img ref={ref} onClick={open} src={image} alt=""/>
                     </div>
                 )}
             </Item>  
