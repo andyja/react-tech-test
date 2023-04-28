@@ -1,11 +1,17 @@
 REACT TECHNICAL TEST
-A Command Shift (Manchester Codes) project to simulate a technical test during the recruitment process.  
+A Command Shift project to simulate a technical test during the recruitment process.  A timescale of 5 days was suggested and in this time I had a working MVP, I did not complete this project with TDD methodolgy and need to add tests.  I have since added styling and refactored.
 
 Technologies Used
 This project formed part of the frontend module and required CSS, API but with a focus on consolidating React skills.
 * React
 * Axios
 * CSS
+
+Further Features
+* Auto complete on search-bar
+* Testing
+* Cursor to change to magnifying glass on hover
+* Lightbox added for bigger view of, ability to zoom in on and navigate between images
 
 Installation instructions
 
