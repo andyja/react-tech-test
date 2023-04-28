@@ -23,6 +23,10 @@
     justify-content: center;
     flex-direction: row;
 }
+.zoom-in {
+    cursor: zoom-in;
+  }
+  
 
 /* .thumbnail {
     position: relative;

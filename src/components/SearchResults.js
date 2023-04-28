@@ -9,7 +9,7 @@ const SearchResults = ({ results }) => {
         return <p className="no-results">Please try another search term</p>;
     }
     const smallItemStyles = {
-        cursor: 'pointer',
+        cursor: 'zoom-in',
         objectFit: 'cover',
         width: '150px',
         height: '150px',
@@ -18,7 +18,7 @@ const SearchResults = ({ results }) => {
     <>
     <div className="search-results">
         <Gallery>
-            <div
+            <div className=".search-result__images"
                 style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(4, 0fr)',
@@ -41,6 +41,7 @@ const SearchResults = ({ results }) => {
                             onClick={open} 
                             src={image} 
                             alt=""
+                            className="zoom-in"
                         />
                     )}
                 </Item>  
