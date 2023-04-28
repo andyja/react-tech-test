@@ -8,6 +8,6 @@
 }
 body {
   background-color: var(--nasa-blue);
-  margin: 0;
+  /* margin: 0; */
   font-family: Helvetica, sans-serif;
 }

@@ -1,21 +1,18 @@
-.search-input {
+.search-input, .search-btn {
     font-family: inherit;
-    width: 50%;
-    height: 50px;
+    height: inherit;
     border-radius: 20px;
     font-size: 20px;
-    padding: 0 10px;
     background-color: var(--nasa-grey);
     color: var(--nasa-darkBlue);
     font-weight: bolder;
+    padding: 5px 12px;
+    margin: 15px 10px;
+    border: 2px solid var(--nasa-white);
 }
-.search-btn {
-    font-size: 20px;
-    font-family: inherit;
-    border-radius: 20px;
-    background-color: var(--nasa-grey);
-    color: var(--nasa-darkBlue);
-    height: 50px;
-    font-size: 20px;
-    padding: 0px 10px;
+.search-btn:hover{
+    cursor: pointer;;
+}
+.search-input {
+    width: 40%;
 }
