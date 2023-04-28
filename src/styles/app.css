@@ -1,11 +1,13 @@
+
 .App {
-  background-image: url(/public/images/pono-lopez-qwoW4mdqjWw-unsplash.jpg);
-  background-size: cover;
   display: flex;
   flex-direction: column;
   text-align: center;
   font-family: Helvetica, sans-serif;
+  background-color: var(--nasa-blue);
+  color: var(--nasa-white);
 }
+
 
 .nasa-logo {
   display: flex;

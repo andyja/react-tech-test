@@ -22,5 +22,3 @@ const getImages = (query) => {
 };
 
 export default getImages
-
-// image => image.links[0].href

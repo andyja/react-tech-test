@@ -5,21 +5,17 @@ import 'photoswipe/dist/photoswipe.css';
 import { Gallery, Item } from 'react-photoswipe-gallery';
 
 const SearchResults = ({ results }) => {
+    if (!results){
+        return <p className="no-results">Please try another search term</p>;
+    }
     const smallItemStyles = {
         cursor: 'pointer',
         objectFit: 'cover',
         width: '150px',
         height: '150px',
     };
-
-    if (!results.length){
-        return<p>Nothing to see here</p>
-    } else {
-return (
+    return (
     <>
-    <p>Search Results</p>
-    <p>Images:</p>
-    
     <div className="search-results">
         <Gallery>
             <div
@@ -55,6 +51,6 @@ return (
     </>
 );
 }
-};
+
 
 export default SearchResults;
